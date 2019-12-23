@@ -23,8 +23,8 @@ What I found was that accessing this spreadsheet (on desktop and mobile) to log 
 Mainly the goal of the project is just to get the basic functionality of the site going:
 
 - leverage a bespoke CRUD API to
-  ** log ingredients (and their macros)
-  ** log recipes (and their macros)
+-- log ingredients (and their macros)
+-- log recipes (and their macros)
 
 Future goals include functionality such as
 
