@@ -34,9 +34,9 @@ Future goals include functionality such as
 
 ### Use
 
-`npm install -g nodemon`
-`npm clone https://github.com/cwdott/wtfood.git`
-`cd wtfood/`
-`npm install`
-`npm run dev`
+* `npm install -g nodemon`
+* `npm clone https://github.com/cwdott/wtfood.git`
+* `cd wtfood/`
+* `npm install`
+* `npm run dev`
 Open browser to `http://localhost:3000/`
