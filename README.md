@@ -11,7 +11,7 @@ The point of this app is two-fold:
 
 When I tried the keto diet a couple times in 2018/2019, I tracked all of my nutritional data in a Google Sheets spreadsheet. This included tracking the meals I ate, various ingredients and their macronutrient breakdowns (macros) as well as recipes and their respective nutritional information.
 
-What I found was that accessing this spreadsheet in order to log new data wasn't quick, and I eventually stopped logging new data altogether. Building a webapp with ease of use as a primary design factor would allow me to easily continue logging nutritional intake.
+What I found was that accessing this spreadsheet (on desktop and mobile) to log data was complicated, and I eventually stopped altogether. Building a webapp with ease of use as a primary design factor would allow me to continue logging nutritional intake.
 
 ### Built with
 
