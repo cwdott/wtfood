@@ -2,12 +2,24 @@ const Ingredient = require('../models/ingredient.model');
 
 // CREATE a new Ingredient
 exports.ingredient_create = function (req, res) {
-    console.log(req.body);
     let ingredient = new Ingredient(
         {
             name: req.body.name,
+            servingText: req.body.servingText,
+            servingAmount: req.body.servingAmount,
+            servingUnit: req.body.servingUnit,
             calories: req.body.calories,
-            fat: req.body.fat
+            fat: req.body.fat,
+            fatSaturated: req.body.fatSaturated,
+            fatTrans: req.body.fatTrans,
+            cholesterol: req.body.cholesterol,
+            sodium: req.body.sodium,
+            carbs: req.body.carbs,
+            fiber: req.body.fiber,
+            sugar: req.body.sugar,
+            sugarIncluded: req.body.sugarIncluded,
+            sugarAdded: req.body.sugarAdded,
+            protein: req.body.protein
         }
     );
 
