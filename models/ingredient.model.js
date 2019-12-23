@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 let IngredientSchema = new Schema({
   name: { type: String, required: true, max: 100 },
-  servingName: { type: String, required: true, max: 20 },
+  servingText: { type: String, required: true, max: 20 },
   servingAmount: { type: float, required: true },
   servingUnit: { type: String, required: true, max: 5 },
   calories: { type: Number, required: true },
