@@ -17,7 +17,7 @@ let IngredientSchema = new Schema({
   sugar: { type: Number, required: true },
   sugarIncluded: { type: Number, required: true },
   sugarAdded: { type: Number, required: true },
-  protein: { type: Number, required: true },
+  protein: { type: Number, required: true }
 });
 
 // Export the model
