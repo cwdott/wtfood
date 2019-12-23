@@ -31,3 +31,12 @@ Future goals include functionality such as
 * tracking exercise
 * building custom meal plans leveraging user-submitted recipes
 * offer meal plans customized by diet (keto, vegetarian, vegan, carnivore, etc.) 
+
+### Use
+
+`npm install -g nodemon`
+`npm clone https://github.com/cwdott/wtfood.git`
+`cd wtfood/`
+`npm install`
+`npm run dev`
+Open browser to `http://localhost:3000/`
