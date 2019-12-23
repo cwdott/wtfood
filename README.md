@@ -22,20 +22,22 @@ What I found was that accessing this spreadsheet (on desktop and mobile) to log 
 
 Mainly the goal of the project is just to get the basic functionality of the site going:
 
-- leverage a bespoke CRUD API to
-  - log ingredients (and their macros)
-  - log recipes (and their macros)
+- Leverage a bespoke CRUD API to:
+  - Log ingredients (and their macros)
+  - Log recipes (and their macros)
+- Log dietary intake
+  - Track macronutrient consumption
 
 Future goals include functionality such as
 
-- user accounts
-- privacy/sharing of personally-entered datasets
-- multi-user access to the database of ingredients and recipes
-- entering of data by scanning nutritional labels on food
-- tracking sleep
-- tracking exercise
-- building custom meal plans leveraging user-submitted recipes
-- offer meal plans customized by diet (keto, vegetarian, vegan, carnivore, etc.)
+- User accounts
+- Privacy/sharing of personally-entered datasets
+- Multi-user access to the database of ingredients and recipes
+- Entering of data by scanning nutritional labels on food
+- Tracking sleep
+- Tracking exercise
+- Building custom meal plans leveraging user-submitted recipes
+- Offer meal plans customized by diet (keto, vegetarian, vegan, carnivore, etc.)
 
 ### Use
 
