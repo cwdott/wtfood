@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 let IngredientSchema = new Schema({
   name: { type: String, required: true, max: 100 },
   servingText: { type: String, required: true, max: 20 },
-  servingAmount: { type: float, required: true },
+  servingAmount: { type: Number, required: true },
   servingUnit: { type: String, required: true, max: 5 },
   calories: { type: Number, required: true },
   fat: { type: Number, required: true },

@@ -1,5 +1,9 @@
 const Ingredient = require('../models/ingredient.model');
 
+exports.ingredients_test = function (req, res) {
+    res.send(req);
+}
+
 // CREATE a new Ingredient
 exports.ingredient_create = function (req, res) {
     let ingredient = new Ingredient(
