@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-//const bodyParser = require("body-parser");
+const bodyParser = require("body-parser");
 
 // Declare constant/environment variables
 const NODE_PORT = 3000;
@@ -21,8 +21,8 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 
 // TODO: Figure out what bodyPerson does and if it's required
-// app.use(bodyParser.json());
-// app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 
 // Routes
 app.use("/", ROUTES_PAGES);
