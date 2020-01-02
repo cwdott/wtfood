@@ -671,6 +671,16 @@
     <script src="js/demo/chart-pie-demo.js"></script>
 
     <script>
+      function createIngredient() {
+        fetch("/api/ingredients/", {
+          method: "POST",
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+          },
+          
+        })
+      }
+
       function getIngredientData() {
         fetch("/api/ingredients/", {
           method: "GET"
